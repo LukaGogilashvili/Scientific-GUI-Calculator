@@ -165,4 +165,4 @@ buttonEquals = Button(cal, height=normal_button_height, width=normal_button_widt
 
 buttondivide = Button(cal, height=normal_button_height, width=normal_button_width, activebackground="#CC7B33", relief=FLAT, fg="#FFFFFF", bg="#f3933d", font=LightFontface, text="÷",
 					  command = lambda:ButtonPress("÷")).grid(row=3, column=3, sticky=NSEW, padx=1, pady=1)
-cal.mainloop()
+cal.mainloop() 
